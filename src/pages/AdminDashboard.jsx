@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Camera, CheckCircle, XCircle, Users } from "lucide-react";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "@/hooks/use-toast.jsx";
 import { supabase } from "@/integrations/supabase/client";
 import FaceRecognitionCamera from "@/components/FaceRecognitionCamera";
 

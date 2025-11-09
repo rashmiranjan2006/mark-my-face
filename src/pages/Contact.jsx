@@ -1,8 +1,6 @@
+import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-
-
-import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -143,3 +141,5 @@ const Contact = () => {
 };
 
 export default Contact;
+// ...existing code up to the first export default Contact;
+// Remove all code after the first export default Contact;

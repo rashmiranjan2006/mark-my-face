@@ -31,7 +31,6 @@ const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
-      
       <main className="flex-1">
         {/* Hero Section */}
         <section className="hero-surveillance py-24 px-4">
@@ -122,7 +121,6 @@ const About = () => {
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
   );
